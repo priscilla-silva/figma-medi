@@ -1,0 +1,99 @@
+header {
+    font-family: 'Montserrat', sans-serif;
+    color: #0A1B32;  
+    font-weight: 900;
+    display: inline-block; 
+}
+.logo{
+    margin-top: 37px;
+    margin-left: 50px;
+    display: inline-block;
+    
+}
+.logo-dot {
+    color: #33A2E0;
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+
+
+.headline {
+    font-family: 'Ramaraja', serif;
+    color: #1B0A42;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    /* margin-top: 50px; */
+    max-width: 583px;
+    width: 100%;
+    margin-left: 100px;
+    
+}
+.main-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #9A9A9A;
+    max-width: 583px;
+    width: 100%;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+      
+    
+}
+.yogi {
+    max-width: 700px;
+    width: 100%;
+    margin-top: 50px;
+}
+.sign-up {
+    display: inline-block; 
+}
+
+.button1, .sign-up {
+    background-color: #33A2E0;
+    border: 0ch;
+    border-radius: 2px;
+    width: 100px;
+   
+    
+}
+.button1 {
+    margin-left: 100px;
+    max-width: 152px;
+    width: 100%;
+}
+.b-text, .b-signup {
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    text-align: center;
+    
+   
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    padding-inline: 10px;
+}
+.navi {
+    display: inline-block;
+    margin-left: 150px;
+}
+.sign-in {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    margin-left: 500px;
+
+}
+   
+section {
+    display: inline-block;
+    
+}
