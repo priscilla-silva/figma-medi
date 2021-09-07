@@ -5,14 +5,17 @@ header {
     display: inline-block; 
 }
 .logo{
-    margin-top: 37px;
-    margin-left: 50px;
-    display: inline-block;
+    position: absolute;
+    width: 95.25px;
+    height: 40.61px;
+    left: 50px;
+    top: 37px;
+    /* display: inline-block; */
     
 }
 .logo-dot {
     color: #33A2E0;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     
     
@@ -20,32 +23,68 @@ header {
 
 
 .headline {
-    font-family: 'Ramaraja', serif;
+    /* font-family: 'Ramaraja', serif;
     color: #1B0A42;
     font-size: 72px;
     line-height: 76px;
     letter-spacing: 0.02em;
-    /* margin-top: 50px; */
+    margin-top: 50px; 
     max-width: 583px;
     width: 100%;
     margin-left: 100px;
-    
+     */
+     /* position: absolute; */
+     max-width: 495px;
+     width: 100%;
+     left: 200px;
+     top: 280.71px;
+     
+     font-family: Ramaraja;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 72px;
+     line-height: 76px;
+     /* or 106% */
+     
+     letter-spacing: 0.02em;
+     
+     color: #1B0A42;
 }
 .main-text {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #9A9A9A;
     max-width: 583px;
     width: 100%;
     line-height: 32px;
+    letter-spacing: 0.02em; */
+    /* position: absolute; */
+    max-width: 583.48px;
+    width: 100%;
+    left: 200px;
+    top: 442.71px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
     letter-spacing: 0.02em;
+
+    color: #9A9A9A;
+    
       
     
 }
 .yogi {
     max-width: 700px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 70px;
+    
+    
+    
 }
 .sign-up {
     display: inline-block; 
@@ -54,7 +93,7 @@ header {
 .button1, .sign-up {
     background-color: #33A2E0;
     border: 0ch;
-    border-radius: 2px;
+    border-radius: 6px;
     width: 100px;
    
     
@@ -78,11 +117,12 @@ li {
     font-size: 15px;
     letter-spacing: 0.02em;
     display: inline-block;
-    padding-inline: 10px;
+    padding: 10px; 
 }
 .navi {
-    display: inline-block;
+    display: inline-block; 
     margin-left: 150px;
+    margin-top: 25px;
 }
 .sign-in {
     font-family: 'Roboto', sans-serif;
@@ -90,10 +130,16 @@ li {
     letter-spacing: 0.02em;
     display: inline-block;
     margin-left: 500px;
+    padding: 10px;
 
 }
    
 section {
     display: inline-block;
+    margin-left: 100px;
     
+    
+}
+.text {
+    margin-top: 50px;
 }
